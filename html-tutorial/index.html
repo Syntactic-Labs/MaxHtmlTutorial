@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My first html page!</h1>
+    <p style="text-align:right">This is some text in a paragraph.</p>
+    <h3>Diffrent sized header!</h3>
+    <table Id="btn" style="margin-top:120px; margin-left:500px;width: 50%;">
+        <tr style="font-family: Arial;font-size: 32pt;">
+            <td>Id</td>
+            <td>UserName</td>
+            <td>FirstName</td>
+            <td>IsAdmin</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ScottScotters</td>
+            <td>Scott</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ToddTodders</td>
+            <td>Todd</td>
+            <td>False</td>
+        </tr>
+    </table>
+    <button id="btn" onclick="hide()">Click me to hide User Table!</button>
+    <button id="btn" onclick="show()">Click me to show User Table!</button>
+    <script lang="javascript">
+        function hide() {
+            document.getElementById("btn").style.display = "none";
+        }
+        function show() {
+            document.getElementById("btn").style.display = "block";
+        }
+    </script>
+</body>
+</html>
