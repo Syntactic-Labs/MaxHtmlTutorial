@@ -1,8 +1,16 @@
 #p1 {background-color:rgba(255, 0, 255, 0.062); font-style: italic; color: cadetblue;}
 #s1 {background-color:rgba(0, 255, 64, 0.3); font-weight: 800;}
-#op1 {background-color:rgba(255, 0, 0, 0.3); color: aqua;}
+#op1 {background-color:rgb(255, 0, 0); color: black;}
 #op2 {background-color:rgba(9, 255, 0, 0.3);}
 #op3 {background-color:rgba(0, 17, 255, 0.3);}
 table { width: 100%; border-collapse: collapse;}
 table, tr, td, th {border: 1px solid rgba(43, 70, 226, 0.295);}
-body {font-family: 'Times New Roman', Times, serif;}
+body { font: normal normal normal 16pt/20.2pt Arial, Helvitica, sans-serif;
+    
+      /* font-family: 'Times New Roman', Times, serif;
+      font-size: 16pt;
+      font-weight: normal;
+      font-style: normal;
+      font-variant: normal; */
+}
+th { font-size: 1.25em;}
