@@ -1,4 +1,23 @@
-h1 { text-align: center;}
+h1{ text-align: center;}
 body{
     font: normal normal normal 16pt/20pt Arial, Verdana, Georgia;
 }
+table { border-collapse: collapse; border-radius: 0.6em; overflow: hidden; margin: auto;}
+td, tr{
+    padding: 0.7;
+    background: chartreuse;
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+td{
+    padding: 0 auto;
+}
+#p1{font-size: 1.25em; font-weight: bold;}
+
+.darkOrange {
+    color: darkorange;
+}
+.darkBlue {
+    color: darkblue;
+}
+
