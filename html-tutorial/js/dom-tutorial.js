@@ -44,12 +44,7 @@ const loaded = () => {
         tbody.innerHTML += tr;
     }
 }*/
-
-
-
-
-
-let dbData = [
+/*let dbData = [
     { name: "Abe", color: "black", number: 13},
     { name: "Todd", color: "green", number: 8},
     { name: "Scott", color: "orange", number: 92},
@@ -58,11 +53,7 @@ let dbData = [
     { name: "Dan", color: "green", number: 1},
     { name: "Elyse", color: "apathy", number: 2}
 
-]
-
-
-
-
+]*/
 const add = () => {
     let operanda = +document.getElementById("opa").value;
     let operandb = +document.getElementById("opb").value;
