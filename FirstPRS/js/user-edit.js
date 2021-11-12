@@ -1,14 +1,3 @@
-let user = {
-    id:1,
-    username:"FredFredders",
-    password:"fred",
-    firstname:"Fred",
-    lastname:"Fredders",
-    phone:"123-123-1234",
-    email:"FredFredders@Gmail.com",
-    isReviewer:true,
-    isAdmin:true
-}
 const loaded = () => {
     document.getElementById("xid").value = user.id;
     document.getElementById("xusername").value = user.username;

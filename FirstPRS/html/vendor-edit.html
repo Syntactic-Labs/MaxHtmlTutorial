@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Create</title>
-    <script src="../js/user-create.js"></script>
+    <title>Vendor Edit</title>
+    <script src="../js/vendor-edit.js"></script>
+    <script src="../js/vendor-utility.js"></script>
 </head>
-<body>
-    <a href="user-list.html">Back to user list</a>
+<body onload="loaded()">
+    <a href="vendor-list.html">Back to user list</a>
     <table>
         <tr>
             <td>Id</td>
@@ -17,53 +18,51 @@
             </td>
         </tr>
         <tr>
-            <td>User Name</td>
+            <td>Code</td>
             <td>
-                <input  id="xusername" type="text" size="30">
+                <input id="xcode" type="text" size="8">
             </td>
         </tr>
         <tr>
-            <td>Password</td>
+            <td>Name</td>
             <td>
-                <input  id="xpassword" type="password" size="30">
-                <input  id="xpassword2" type="password" size="30" onblur="chkPassword()">
+                <input id="xname" type="text" size="16">
             </td>
         </tr>
         <tr>
-            <td>First Name</td>
+            <td>Address</td>
             <td>
-                <input id="xfirstname" type="text" size="16">
+                <input id="xaddress" type="text" size="16">
             </td>
         </tr>
         <tr>
-            <td>Last Name</td>
+            <td>City</td>
             <td>
-                <input id="xlastname" type="text" size="16">
+                <input id="xcity" type="text" size="16">
+            </td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+                <input id="xstate" type="text" size="16">
+            </td>
+        </tr>
+        <tr>
+            <td>Zip</td>
+            <td>
+                <input id="xzip" type="text" size="16">
             </td>
         </tr>
         <tr>
             <td>Phone</td>
             <td>
-                <input id="xphone" type="text" size="14">
-
+                <input id="xphone" type="text" size="16">
             </td>
         </tr>
         <tr>
             <td>Email</td>
             <td>
-                <input id="xemail" type="text" size="30">
-            </td>
-        </tr>
-        <tr>
-            <td>Reviewer</td>
-            <td>
-                <input id="xreviewer" type="checkbox">
-            </td>
-        </tr>
-        <tr>
-            <td>Admin</td>
-            <td>
-                <input id="xadmin" type="checkbox">
+                <input id="email" type="text" size="16">
             </td>
         </tr>
     </table>
